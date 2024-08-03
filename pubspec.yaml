@@ -1,0 +1,123 @@
+name: attendify_lite
+description: "Attendance made easy!"
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  m7_livelyness_detection:
+    git:
+      url: https://github.com/AhsanAwanMalik/m7_livelyness_detection.git
+      ref: master
+  cupertino_icons: ^1.0.6
+  get_it: ^7.6.7
+  dio: ^5.4.1
+  flutter_bloc: ^8.1.4
+  auto_route: ^8.1.3
+  equatable: ^2.0.5
+  connectivity_plus: ^6.0.3
+  shared_preferences: ^2.2.2
+  flutter_screenutil: ^5.9.0
+  dartz: ^0.10.1
+  camera: ^0.10.5+9
+  flutter_svg: ^2.0.10+1
+  path_provider: ^2.1.2
+  logger: ^2.0.2+1
+  hydrated_bloc: ^9.1.4
+  gap: ^3.0.1
+  bloc: ^8.1.3
+
+  country_picker: ^2.0.25
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  twilio_flutter: ^0.3.0
+  bot_toast: ^4.1.3
+  permission_handler: ^11.3.1
+  intl: ^0.18.1
+
+  ntp: ^2.0.0
+  image_picker: ^1.0.7
+  geocoding: ^3.0.0
+  objectbox: ^2.5.1
+  objectbox_flutter_libs: ^2.5.1
+  sms_autofill: ^2.3.1
+  fluttertoast: ^8.2.4
+  path: ^1.9.0
+  cached_network_image: ^3.3.1
+  dart_date: ^1.3.2
+  location: ^6.0.2
+  date_picker_plus: ^4.0.0
+  easy_date_timeline: ^1.0.3
+  table_calendar: ^3.0.9
+  google_maps_flutter: ^2.6.0
+  geolocator: ^11.0.0
+  firebase_core: ^2.27.1
+  firebase_messaging: ^14.8.2
+  pdf: ^3.8.4
+  http: ^1.2.1
+  flutter_to_pdf: ^0.2.0
+  printing: ^5.12.0
+  image: ^4.1.7
+  csv: ^6.0.0
+  open_file: ^3.3.2
+  excel: ^2.1.0
+  syncfusion_flutter_charts: ^25.1.41+2
+  # printing: ^5.12.0
+  flutter_local_notifications: ^17.1.2
+  app_settings: ^5.1.1
+  device_info_plus: ^10.1.0
+  flutter_background_service: ^5.0.6
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+  build_runner:
+  flutter_gen_runner:
+  auto_route_generator: ^8.0.0
+  freezed: ^2.4.7
+  json_serializable: ^6.7.1
+  objectbox_generator: any
+
+objectbox:
+  output_dir: core/services/database/
+
+flutter_gen:
+  output: lib/core/gen/
+
+  integrations:
+    flutter_svg: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/fonts/
+    - assets/images/
+
+  fonts:
+    - family: Hellix
+      fonts:
+        - asset: assets/fonts/Hellix-Regular.ttf
+        - asset: assets/fonts/Hellix-Light.ttf
+        - asset: assets/fonts/Hellix-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Hellix-Bold.ttf
+          weight: 700
+    # - family: Poppins
+      # fonts:
+      #   - asset: assets/fonts/Poppins-Regular.ttf
+      #   - asset: assets/fonts/Poppins-Light.ttf
+      #   - asset: assets/fonts/Poppins-Medium.ttf
+      #     weight: 500
+      #   - asset: assets/fonts/Poppins-SemiBold.ttf
+      #     weight: 700

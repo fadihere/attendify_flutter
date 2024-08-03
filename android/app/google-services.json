@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "239755589677",
+    "project_id": "attendify-389606",
+    "storage_bucket": "attendify-389606.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239755589677:android:042e5c42ee292d6bf7e0a4",
+        "android_client_info": {
+          "package_name": "com.swatiTech.attendify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiFuRqyaKQ0VMaOiQCpOqUvm9dDuADCUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
