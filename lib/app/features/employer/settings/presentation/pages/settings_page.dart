@@ -205,7 +205,7 @@ class AdmSettingsPage extends StatelessWidget {
                           child: SizedBox(
                             height: 0,
                             child: CupertinoSwitch(
-                              activeColor: context.color.primary,
+                              activeTrackColor: context.color.primary,
                               value: Theme.of(context).brightness ==
                                   Brightness.dark,
                               onChanged: (_) {},

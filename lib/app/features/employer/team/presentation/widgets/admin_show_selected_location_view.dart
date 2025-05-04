@@ -252,15 +252,15 @@ class _AdminShowSelectedLocationViewState
                     ),
                   ),
                   style: ButtonStyle(
-                    backgroundColor: const MaterialStatePropertyAll(
+                    backgroundColor: const WidgetStatePropertyAll(
                       Color.fromRGBO(99, 158, 255, 1),
                     ),
-                    shape: const MaterialStatePropertyAll(
+                    shape: const WidgetStatePropertyAll(
                       StadiumBorder(),
                     ),
                     visualDensity: VisualDensity.compact,
                     tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                    padding: MaterialStatePropertyAll(
+                    padding: WidgetStatePropertyAll(
                       EdgeInsets.only(
                         top: height * 0.021,
                         bottom: height * 0.02,

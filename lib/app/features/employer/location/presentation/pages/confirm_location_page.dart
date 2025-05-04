@@ -99,10 +99,10 @@ class _ConfirmLocationPageState extends State<ConfirmLocationPage> {
                       ),
                       padding: EdgeInsets.zero,
                       style: ButtonStyle(
-                        backgroundColor: MaterialStatePropertyAll(
+                        backgroundColor: WidgetStatePropertyAll(
                           context.color.whiteBlack,
                         ),
-                        shape: const MaterialStatePropertyAll(
+                        shape: const WidgetStatePropertyAll(
                           RoundedRectangleBorder(),
                         ),
                       ),
@@ -118,10 +118,10 @@ class _ConfirmLocationPageState extends State<ConfirmLocationPage> {
                       ),
                       padding: EdgeInsets.zero,
                       style: ButtonStyle(
-                        backgroundColor: MaterialStatePropertyAll(
+                        backgroundColor: WidgetStatePropertyAll(
                           context.color.whiteBlack,
                         ),
-                        shape: const MaterialStatePropertyAll(
+                        shape: const WidgetStatePropertyAll(
                           RoundedRectangleBorder(),
                         ),
                       ),
